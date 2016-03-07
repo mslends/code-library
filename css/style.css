@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+}
+
+.main-container {
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    font-family: 'PT sans', sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  float: left;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+.search {
+    float: right;
+    height: 2.5em;
+    width: 300px;
+    margin-top: 25px;
+    margin-right: 70px;
+    vertical-align: middle;
+}
+
+.left-menu-section {
+  background-color: red;
+  width: 25%;
+  height: 100vh;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

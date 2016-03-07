@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html ng-app='codeLibrary'>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Library</title>
+
+    <link rel="stylesheet" type="text/css "href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.0.8/gridlex.css">
+
+
+
+  </head>
+  <body>
+    <header class="header">
+
+      <section class="logo"><i class="fa fa-code code-icon fa-5x"></i></section>
+
+      <section>
+        <input class="search" type="text" name="search" value="">
+      </section>
+
+
+
+    </header>
+
+    <main class="main-container">
+      <section class="left-menu-section"></section>
+      <section ui-view>
+
+        <div class="test">
+          {{test}}
+        </div>
+
+      </section>
+
+          <!-- <footer-directive></footer-directive> -->
+
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js'>
+      </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+</script>
+    <script src='js/app.js'></script>
+    <script src='controllers/mainCtrl.js'></script>
+    <!-- <script src='js/footerDirective.js'></script> -->
+
+
+
+
+  </body>
+</html>
