@@ -12,26 +12,35 @@
 
 
   </head>
-  <body>
+  <body ng-controller="mainCtrl">
     <header class="header">
 
+      <section class="menu" img src=""></section>
       <section class="logo"><i class="fa fa-code code-icon fa-5x"></i></section>
-
-      <section>
-        <input class="search" type="text" name="search" value="">
-      </section>
 
 
 
     </header>
 
     <main class="main-container">
-      <section class="left-menu-section"></section>
+
+      <section class="left-menu-section">
+        <section class="search-bar">
+          <input ng-model="filterTopic" class="search" type="text" placeholder="Search by topic" name="search" value="">
+        </section>
+
+        <a  ng-repeat='topic in topics | filter: filterTopic '>
+          <p class="topic-names">
+            {{topic.name}}
+          </p>
+      </a>
+
+
+      </section>
+
       <section ui-view>
 
-        <div class="test">
-          {{test}}
-        </div>
+
 
       </section>
 
@@ -49,6 +58,7 @@
 </script>
     <script src='js/app.js'></script>
     <script src='controllers/mainCtrl.js'></script>
+    <script src='services/topicService.js'></script>
     <!-- <script src='js/footerDirective.js'></script> -->
 
 

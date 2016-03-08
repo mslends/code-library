@@ -1,7 +1,8 @@
-angular.module("codeLibrary").controller('mainCtrl', function($scope) {
+angular.module("codeLibrary").controller('mainCtrl', function($scope, topicService) {
 
-// $scope.profilePicture = 'images/profile-pic.jpg';
-$scope.test = "hey bitches";
+
+$scope.topics = topicService.getTopics();
+$scope.test = "HEy";
 // $(document).ready(function(){
 //     $(".fa").hover(function(){
 //         $(this).removeClass('fa-3x').addClass('fa-4x')

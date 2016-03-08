@@ -1,4 +1,4 @@
-var app = angular.module("codeLibrary", ['ui.router'])
+angular.module("codeLibrary", ['ui.router'])
 .config(function($urlRouterProvider, $stateProvider) {
  $urlRouterProvider.otherwise('/');
   //  $stateProvider
