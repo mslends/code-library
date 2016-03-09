@@ -1,6 +1,6 @@
 # code-library
 
-This project is designed to be a one-stop resource for the DevMountain curriculum. 
+This project is designed to be a one-stop resource for developers to use for information and instructions about any coding topic. 
 
 Each topic is taken from the syllabus to help students further understand each concept. 
 
