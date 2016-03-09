@@ -11,9 +11,10 @@ body {
 
 .main-container {
     background-color: none;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     font-family: 'PT sans', sans-serif;
+    float: right;
 }
 
 .header {
@@ -41,10 +42,12 @@ body {
 .left-menu-section {
   background-color: none;
   width: 25%;
-  /*height: 100vh;*/
+  height: 100vh;
   text-align: center;
   padding-top: 40px;
   border-right: 1px solid grey;
+  float: left;
+  overflow: scroll;
 }
 
 .topic-names {
@@ -57,6 +60,16 @@ body {
     color: #05a2e6;
     font-size: 28px;
 }
+
+.gitTemplate {
+  background-color: green;
+  height: 100%;
+  width: 75%;
+  float: right;
+  text-align: center;
+}
+
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 

@@ -29,7 +29,7 @@
           <input ng-model="filterTopic" class="search" type="text" placeholder="Search by topic" name="search" value="">
         </section>
 
-        <a  ng-repeat='topic in topics | filter: filterTopic '>
+        <a ui-sref="{{topic.state}}" ng-repeat='topic in topics | filter: filterTopic '>
           <p class="topic-names">
             {{topic.name}}
           </p>

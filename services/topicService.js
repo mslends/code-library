@@ -1,79 +1,104 @@
 angular.module("codeLibrary").service("topicService", function() {
 
   var topics = [{
-      name: 'git'
+      name: 'git',
+      state: 'git'
     },
     {
-      name: 'html'
+      name: 'html',
+      state: 'html'
     },
     {
-      name: 'css'
+      name: 'css',
+      state: 'css'
     },
     {
-      name: 'css positioning'
+      name: 'css positioning',
+      state: 'cssPositioning'
     },
     {
-      name: 'advanced html'
+      name: 'advanced html',
+      state: 'advHtml'
     },
     {
-      name: 'advanced css'
+      name: 'advanced css',
+      state: 'advCss'
     },
     {
-      name: 'js fundamentals (functions)'
+      name: 'js fundamentals (functions)',
+      state: 'jsFundamentals'
     },
     {
-      name: 'js objects'
+      name: 'js objects',
+      state: 'jsObj'
     },
     {
-      name: '"this" keyword'
+      name: '"this" keyword',
+      state: 'this'
     },
     {
-      name: 'js callbacks'
+      name: 'js callbacks',
+      state: 'callbacks'
     },
     {
-      name: 'js prototypes'
+      name: 'js prototypes',
+      state: 'prototypes'
     },
     {
-      name: 'jquery'
+      name: 'jquery',
+      state: 'jquery'
     },
     {
-      name: 'jquery 2'
+      name: 'jquery 2',
+      state: 'jquery2'
     },
     {
-      name: 'angular'
+      name: 'angular',
+      state: 'angular'
     },
     {
-      name: 'angular services'
+      name: 'angular services',
+      state: 'angularServices'
     },
     {
-      name: 'angular $http'
+      name: 'angular $http',
+      state: 'angular$http'
     },
     {
-      name: 'angular $q'
+      name: 'angular $q',
+      state: 'angular$q'
     },
     {
-      name: 'json p'
+      name: 'json p',
+      state: 'jsonp'
     },
     {
-      name: 'Angular UI-Router'
+      name: 'Angular UI-Router',
+      state: 'angularRouter'
     },
     {
-      name: 'Angular Directives'
+      name: 'Angular Directives',
+      state: 'angularDirectives'
     },
     {
-      name: 'firebase'
+      name: 'firebase',
+      state: 'firebase'
     },
     {
-      name: 'Node.js'
+      name: 'Node.js',
+      state: 'node'
     },
     {
-      name: 'express.js'
+      name: 'express.js',
+      state: 'express'
     },
     {
-      name: 'MongoDB'
+      name: 'MongoDB',
+      state: 'mongodb'
     },
     {
-      name: 'Mongoose'
+      name: 'Mongoose',
+      state: 'mongoose'
     }
 ];
 
