@@ -33,6 +33,7 @@ body {
 .search-bar {
 
 }
+
 .search {
     height: 3em;
     width: 80%;
@@ -50,10 +51,14 @@ body {
   overflow: scroll;
 }
 
+.left-menu-section>a {
+  text-decoration: none;
+}
+
 .topic-names {
   font-size: 25px;
   margin-top: 40px;
-
+  color: black;
 }
 
 .topic-names:hover {
@@ -62,13 +67,45 @@ body {
 }
 
 .gitTemplate {
-  background-color: green;
+  background-color: none;
   height: 100%;
   width: 75%;
   float: right;
   text-align: center;
 }
 
+.headers-section {
+  background-color: none;
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.headers {
+  font-size: 35px;
+}
+
+.horizontal-line {
+  width: 75%;
+}
+.steps {
+  background-color: none;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.paragraph-section {
+  background-color: none;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.code-snippets {
+  background-color: none;
+  margin: 0 auto;
+}
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
